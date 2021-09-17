@@ -3,22 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Team Avengers Website Update #1</title>
+  <title>Team Avengers Website Update in shared repo version #1</title>
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 <body>
   <div>
-      <h1>Welcome to Avengers application</h1>
+      <h1>Welcome to Avengers application update #PartOne 2 Update</h1>
+      <p>Abhishek's Changes</p>
     {{{body}}}
 </div>
 <div>
   <h2>Add an event</h2>
     <form action="/event" method="post">
-       title: <input name="title" type="text" /> <br />
-       description: <input name="description" type="text" /> <br />
+       <table>
+       <tr>
+          <td>Title: </td> 
+          <td> <input name="title" type="text" /> <br /> </td> 
+       </tr> 
+       <tr>
+           <td>Description:</td>  
+           <td> <input name="description" type="text" /> <br /> </td>
+       </tr>
+       <br/>
+    </table>
        <br />
-        <input type="submit" name="submit" value="submit" />
+       <br/>
+        <input type="submit" name="Submit" value="Submit" />
     </form>
   </div>
 </body>
